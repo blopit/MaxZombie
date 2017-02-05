@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ngrok' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData ngrok
+8 silly fetchOtherPackageData ngrok
+9 silly cache add args [ 'ngrok', null ]
+10 verbose cache add spec ngrok
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'ngrok',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'ngrok',
+11 silly cache add   spec: '/Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 8749d99c0837c63f1c934e0c1eb6302194283452
+13 verbose addTmpTarball /Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok not in flight; adding
+14 verbose correctMkdir /Users/shrenilpatel/.npm correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from /Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok
+16 verbose tar unpack /Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok
+17 verbose tar unpacking to /tmp/npm-14068-abc173a8/unpack-53443f7f
+18 silly gentlyRm /tmp/npm-14068-abc173a8/unpack-53443f7f is being purged
+19 verbose gentlyRm don't care about contents; nuking /tmp/npm-14068-abc173a8/unpack-53443f7f
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok
+22 error addLocal Could not install /Users/shrenilpatel/Documents/GitHub/MaxZombie/ngrok
+23 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData  error for ngrok { Error: ENOENT: no such file or directory, open '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData   errno: -2,
+23 silly fetchPackageMetaData   code: 'ENOENT',
+23 silly fetchPackageMetaData   syscall: 'open',
+23 silly fetchPackageMetaData   path: '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json' }
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Starting
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json'
+29 verbose stack     at Error (native)
+30 verbose cwd /Users/shrenilpatel/Documents/GitHub/MaxZombie
+31 error Darwin 15.3.0
+32 error argv "/usr/local/Cellar/node/6.2.2/bin/node" "/usr/local/bin/npm" "install" "-g" "ngrok"
+33 error node v6.2.2
+34 error npm  v3.9.5
+35 error path /tmp/npm-14068-abc173a8/unpack-53443f7f/package.json
+36 error code ENOENT
+37 error errno -2
+38 error syscall open
+39 error enoent ENOENT: no such file or directory, open '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json'
+40 error enoent ENOENT: no such file or directory, open '/tmp/npm-14068-abc173a8/unpack-53443f7f/package.json'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]
